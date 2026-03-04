@@ -1,0 +1,21 @@
+// const axios=require("axios")
+// class JokeCommand{
+//   program:typeof Command;
+//   constructor(program){
+//     this.program=program
+//   }
+//   register(){
+//     this.program
+//     .command("joke")
+//     .action(()=>this.joke())
+//   }
+//   async joke(){
+//     try {
+//     const res=await axios.get("https://official-joke-api.appspot.com/random_joke")
+//     console.log(res.data.setup)
+//     console.log(res.data.punchline)
+//   } catch (error) {
+//     console.log(error)
+//   }
+//   }
+// }
